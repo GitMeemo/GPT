@@ -5,7 +5,7 @@ GPT Early Access Website is a fully responsive front-end using Next.js and React
 
 The project follows modern front-end standards by using reusable Components and layout-based Containers.
 
-![image alt](https://github.com/GitMeemo/GPT/blob/0a0083df2039c36a77e3bcedf73bb0bcc7551b8f/GPT.png)
+![image alt](https:/GPT/blob/0a0083df2039c36a77e3bcedf73bb0bcc7551b8f/GPT.png)
 
 ## COMPONENTS
 
