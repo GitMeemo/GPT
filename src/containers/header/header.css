@@ -1,0 +1,183 @@
+.Header {
+    display: flex;
+    padding-left: 50px;
+    margin-top: 0px;
+}
+
+.Header-Content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+.Header-Content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    color: #e0e0e0;
+    margin-top: 30px;
+}
+
+.Header-Content p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--color-text);
+    margin-top: 1.5rem;
+}
+
+
+.Header-Content_Input {
+    width: 100%;
+    margin: 2rem 0 1rem;
+    display: flex;
+}
+
+.Header-Content_Input input {
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background: var(--color-footer);
+    border: 2px solid var(--color-footer);
+    padding: 0 1rem;
+    outline: none;
+    color: #fff;
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.Header-Content_Input button {
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background: #FF4820;
+    border: 2px solid #FF4820;
+    padding: 0 1rem;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.Header-Content_People {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Header-Content_People img {
+    width: 181.79px;
+    height: 38px;
+}
+
+.Header-Content_People p {
+    margin: 0 0 0 1rem;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 38px;
+    color: #fff;
+    text-align: center;
+}
+
+.Header-Image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header-Image img {
+    width: 80%;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1050px) {
+    .Header {
+        flex-direction: column;
+    }
+
+    .Header {
+        margin-right: 50px;
+        margin-left: 0px;
+    }
+
+    .Header-Content {
+        margin: 0 0 3rem;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    .Header h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .Header {
+        margin-right: 50px;
+        margin-left: 0px;
+    }
+
+    .Header p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .Header-Content_People {
+        flex-direction: column;
+    }
+
+    .Header-Content_People p {
+        margin: 0;
+    }
+
+    .Header-Content_Input input,
+    .Header-Content_Input button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+}
+
+@media screen and (max-width: 490px) {
+    .Header h1 {
+        font-size: 46px;
+        line-height: 48px;
+    }
+
+    .Header {
+        margin-right: 50px;
+        margin-left: 0px;
+    }
+
+    .Header p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .Header-Content_Input input,
+    .Header-Content_Input button {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
