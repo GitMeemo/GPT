@@ -1,0 +1,112 @@
+.WhatGPT {
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 5px;
+    padding: 2rem;
+    background: var(--color-footer);
+
+    background: radial-gradient(circle at 30% -100%, #01162a 25%, rgb(3, 35, 67) 85%, rgb(2, 53, 107) 100%);
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.WhatGPT-Feature {
+    display: flex;
+}
+
+.WhatGPT-Feature .Features-Container_Feature {
+    margin: 0;
+}
+
+.WhatGPT-Feature .Features-Container_Feature-Text {
+    max-width: 700px;
+}
+
+.WhatGPT-Heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 4rem 0 2rem;
+}
+
+.WhatGPT-Heading h1 {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    max-width: 510px;
+}
+
+.WhatGPT-Heading p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+
+.WhatGPT-Container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+/* Customizing feature component as per needs */
+.WhatGPT-Container .Features-Container_Feature {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+/* Customizing feature component as per needs */
+.WhatGPT-Container .Features-Container_Feature-Text {
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+    .WhatGPT-Heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .WhatGPT-Heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    /* Customizing feature component as per needs */
+    .WhatGPT-Feature .WhatGPT-Features-Container_Feature {
+        flex-direction: column;
+    }
+
+    /* Customizing feature component as per needs */
+    .WhatGPT-Feature .GPT_Features-Container_Feature-Text {
+        margin-top: 0.5rem;
+    }
+
+    .WhatGPT-Heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    /* Customizing feature component as per needs */
+    .WhatGPT-Container .Features-Container_Feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}
